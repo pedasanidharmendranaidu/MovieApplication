@@ -10,7 +10,7 @@ import lombok.Setter;
 import java.util.Set;
 
 @Entity
-@AllArgsConstructor
+
 @NoArgsConstructor
 @Setter
 @Getter
@@ -100,18 +100,16 @@ public class Movie {
 
     private String poster;
 
-//    public Movie(Integer movieId,String tittle, String studio,String director,Set<String> movieCast,Integer releaseYear,String poster) {
-//
-//
-//this.movieId=movieId;
-//this.tittle=tittle;
-//this.movieCast=movieCast;
-//this.poster=poster;
-//this.releaseYear=releaseYear;
-//this.director=director;
-//this.studio=studio;
+    public Movie(Integer movieId, String tittle, String studio, String director, Set<String> movieCast, Integer releaseYear, String poster) {
+        this.movieId = movieId;
+        this.tittle = tittle;
+        this.movieCast = movieCast;
+        this.poster = poster;
+        this.releaseYear = releaseYear;
+        this.director = director;
+        this.studio = studio;
 
-  //  }
+    }
 
     @Override
     public String toString() {

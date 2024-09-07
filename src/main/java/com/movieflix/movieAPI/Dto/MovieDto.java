@@ -9,7 +9,7 @@ import lombok.*;
 import java.util.Set;
 
 @Data
-@AllArgsConstructor
+
 @NoArgsConstructor
 @Setter
 @Getter
@@ -99,16 +99,14 @@ public class MovieDto {
         this.movieId = movieId;
     }
 
-//    public MovieDto(Integer movieId,String tittle, String studio,String director,Set<String> movieCast,Integer releaseYear,String poster, String posterUrl) {
-//
-//
-//        this.movieId=movieId;
-//        this.tittle=tittle;
-//        this.movieCast=movieCast;
-//        this.poster=poster;
-//        this.releaseYear=releaseYear;
-//        this.director=director;
-//        this.studio=studio;
-//this.posterUrl=posterUrl;
-//    }
+    public MovieDto(Integer movieId, String tittle, String studio, String director, Set<String> movieCast, Integer releaseYear, String poster, String posterUrl) {
+        this.movieId = movieId;
+        this.tittle = tittle;
+        this.movieCast = movieCast;
+        this.poster = poster;
+        this.releaseYear = releaseYear;
+        this.director = director;
+        this.studio = studio;
+        this.posterUrl = posterUrl;
+    }
 }

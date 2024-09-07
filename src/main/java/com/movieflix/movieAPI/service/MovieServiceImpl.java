@@ -27,31 +27,36 @@ private String baseUrl;
     public MovieDto addMovie(MovieDto movieDto, MultipartFile file) throws IOException {
         String uploadedFile = fileService.uploadFile(path, file);
 movieDto.setPoster(uploadedFile);
-        Movie movie=new Movie();
-movie.setMovieId(movieDto.getMovieId());
-movie.setTittle(movieDto.getTittle());
-movie.setMovieCast(movieDto.getMovieCast());
-movie.setPoster(movieDto.getPoster());
-movie.setDirector(movieDto.getDirector());
-movie.setStudio(movieDto.getStudio());
-movie.setReleaseYear(movieDto.getReleaseYear());
-        Movie savedmovie = movieRepository.save(movie);
+        // 3. map dto to Movie object
+        Movie movie = new Movie(
+                null,
+                movieDto.getTittle(),
+                movieDto.getDirector(),
+                movieDto.getStudio(),
+                movieDto.getMovieCast(),
+                movieDto.getReleaseYear(),
+                movieDto.getPoster()
+        );
 
-        String posterUrl= baseUrl + "/file/" +uploadedFile;
+        // 4. save the movie object -> saved Movie object
+        Movie savedMovie = movieRepository.save(movie);
 
-MovieDto movieDto1=new MovieDto();
+        // 5. generate the posterUrl
+        String posterUrl = baseUrl + "/file/" + uploadedFile;
 
+        // 6. map Movie object to DTO object and return it
+        MovieDto response = new MovieDto(
+                savedMovie.getMovieId(),
+                savedMovie.getTittle(),
+                savedMovie.getDirector(),
+                savedMovie.getStudio(),
+                savedMovie.getMovieCast(),
+                savedMovie.getReleaseYear(),
+                savedMovie.getPoster(),
+                posterUrl
+        );
 
-movieDto1.getTittle();
-movieDto1.getReleaseYear();
-movieDto1.getDirector();
-movieDto1.getMovieCast();
-movieDto1.getPoster();
-movieDto1.getStudio();
-movieDto1.getPosterUrl();
-        movieDto1.getPosterUrl();
-
-        return movieDto1;
+        return response;
     }
 
 
