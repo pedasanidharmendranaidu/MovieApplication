@@ -1,7 +1,7 @@
 package com.movieflix.movieAPI.Dto;
 
 import jakarta.persistence.CollectionTable;
-import jakarta.persistence.Column;
+
 import jakarta.persistence.ElementCollection;
 import jakarta.validation.constraints.NotBlank;
 import lombok.*;
@@ -9,11 +9,11 @@ import lombok.*;
 import java.util.Set;
 
 @Data
-
 @NoArgsConstructor
 @Setter
 @Getter
 public class MovieDto {
+    @NotBlank(message = " must be enter: ")
     private Integer movieId;
 
     public String getTittle() {
@@ -84,10 +84,13 @@ public class MovieDto {
     @ElementCollection
     @CollectionTable(name = "movie_cast")
     private Set<String> movieCast;
-    @NotBlank(message = "date must be enter: ")
+
+
     private Integer releaseYear;
+
     @NotBlank(message = "tittle must be enter: ")
     private String poster;
+
     @NotBlank(message = "poster url must be enter: ")
     private String posterUrl;
 

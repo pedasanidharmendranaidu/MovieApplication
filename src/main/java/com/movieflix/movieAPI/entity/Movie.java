@@ -10,7 +10,6 @@ import lombok.Setter;
 import java.util.Set;
 
 @Entity
-
 @NoArgsConstructor
 @Setter
 @Getter
@@ -92,12 +91,12 @@ public class Movie {
     @ElementCollection
     @CollectionTable(name = "movie_cast")
     private Set<String> movieCast;
-    @Column(nullable = false, length = 200)
-    @NotBlank(message = "date must be enter: ")
+
+    @Column(nullable = false)
     private Integer releaseYear;
+
     @Column(nullable = false)
     @NotBlank(message = "tittle must be enter: ")
-
     private String poster;
 
     public Movie(Integer movieId, String tittle, String studio, String director, Set<String> movieCast, Integer releaseYear, String poster) {
