@@ -178,9 +178,12 @@ public class MovieServiceImpl implements MovieService {
 
     @Override
     public String deleteMovie(Integer movieId) throws IOException {
-
+        logger.info("info loggeer from movie controller class");
+        logger.info(" deleteMovieHandler mthod from movie cintroller::");
         Movie mv = movieRepository.findById(movieId)
                 .orElseThrow(() -> new MovieNotFoundException("Movie not found with id = " + movieId));
+
+
         Integer id = mv.getMovieId();
 
 
