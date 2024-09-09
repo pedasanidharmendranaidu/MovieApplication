@@ -1,0 +1,466 @@
+2024-09-09 10:54:01 INFO  Version:21 - HV000001: Hibernate Validator 8.0.1.Final
+2024-09-09 10:54:01 INFO  MovieApiApplication:50 - Starting MovieApiApplication using Java 22.0.1 with PID 8700 (C:\Users\Dharma\IdeaProjects\movieAPI\target\classes started by Dharma in C:\Users\Dharma\IdeaProjects\movieAPI)
+2024-09-09 10:54:01 INFO  MovieApiApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2024-09-09 10:54:01 INFO  DevToolsPropertyDefaultsPostProcessor:252 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-09 10:54:01 INFO  DevToolsPropertyDefaultsPostProcessor:252 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-09 10:54:04 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-09 10:54:04 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 141 ms. Found 1 JPA repository interface.
+2024-09-09 10:54:05 INFO  TomcatWebServer:111 - Tomcat initialized with port 8080 (http)
+2024-09-09 10:54:05 INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-09 10:54:05 INFO  StandardService:173 - Starting service [Tomcat]
+2024-09-09 10:54:05 INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-09 10:54:06 INFO  [/]:173 - Initializing Spring embedded WebApplicationContext
+2024-09-09 10:54:06 INFO  ServletWebServerApplicationContext:296 - Root WebApplicationContext: initialization completed in 4581 ms
+2024-09-09 10:54:06 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-09 10:54:07 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-09 10:54:07 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-09-09 10:54:08 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-09 10:54:08 INFO  HikariDataSource:109 - HikariPool-1 - Starting...
+2024-09-09 10:54:09 INFO  HikariPool:554 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6b1ac2ed
+2024-09-09 10:54:09 INFO  HikariDataSource:122 - HikariPool-1 - Start completed.
+2024-09-09 10:54:09 WARN  deprecation:153 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-09 10:54:11 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-09 10:54:11 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-09 10:54:12 WARN  JpaBaseConfiguration$JpaWebConfiguration:236 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-09 10:54:13 INFO  OptionalLiveReloadServer:59 - LiveReload server is running on port 35729
+2024-09-09 10:54:13 INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-09 10:54:13 INFO  TomcatWebServer:243 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-09 10:54:13 INFO  MovieApiApplication:56 - Started MovieApiApplication in 13.334 seconds (process running for 18.465)
+2024-09-09 10:55:36 INFO  [/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-09 10:55:36 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcherServlet'
+2024-09-09 10:55:36 INFO  DispatcherServlet:554 - Completed initialization in 2 ms
+2024-09-09 10:56:49 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-09 10:56:49 INFO  HikariDataSource:349 - HikariPool-1 - Shutdown initiated...
+2024-09-09 10:56:49 INFO  HikariDataSource:351 - HikariPool-1 - Shutdown completed.
+2024-09-09 11:03:18 INFO  Version:21 - HV000001: Hibernate Validator 8.0.1.Final
+2024-09-09 11:03:19 INFO  MovieApiApplication:50 - Starting MovieApiApplication using Java 22.0.1 with PID 6772 (C:\Users\Dharma\IdeaProjects\movieAPI\target\classes started by Dharma in C:\Users\Dharma\IdeaProjects\movieAPI)
+2024-09-09 11:03:19 INFO  MovieApiApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2024-09-09 11:03:19 INFO  DevToolsPropertyDefaultsPostProcessor:252 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-09 11:03:19 INFO  DevToolsPropertyDefaultsPostProcessor:252 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-09 11:03:20 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-09 11:03:20 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 100 ms. Found 1 JPA repository interface.
+2024-09-09 11:03:21 INFO  TomcatWebServer:111 - Tomcat initialized with port 8080 (http)
+2024-09-09 11:03:21 INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-09 11:03:21 INFO  StandardService:173 - Starting service [Tomcat]
+2024-09-09 11:03:21 INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-09 11:03:22 INFO  [/]:173 - Initializing Spring embedded WebApplicationContext
+2024-09-09 11:03:22 INFO  ServletWebServerApplicationContext:296 - Root WebApplicationContext: initialization completed in 3000 ms
+2024-09-09 11:03:22 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-09 11:03:22 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-09 11:03:22 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-09-09 11:03:23 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-09 11:03:23 INFO  HikariDataSource:109 - HikariPool-1 - Starting...
+2024-09-09 11:03:23 INFO  HikariPool:554 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7b1a05dc
+2024-09-09 11:03:23 INFO  HikariDataSource:122 - HikariPool-1 - Start completed.
+2024-09-09 11:03:23 WARN  deprecation:153 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-09 11:03:25 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-09 11:03:25 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-09 11:03:26 WARN  JpaBaseConfiguration$JpaWebConfiguration:236 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-09 11:03:26 INFO  OptionalLiveReloadServer:59 - LiveReload server is running on port 35729
+2024-09-09 11:03:26 INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-09 11:03:26 INFO  TomcatWebServer:243 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-09 11:03:26 INFO  MovieApiApplication:56 - Started MovieApiApplication in 8.661 seconds (process running for 10.664)
+2024-09-09 11:03:51 INFO  [/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-09 11:03:51 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcherServlet'
+2024-09-09 11:03:51 INFO  DispatcherServlet:554 - Completed initialization in 2 ms
+2024-09-09 11:03:51 INFO  MovieServiceImpl:81 - logger from the movieServiceImle class 
+2024-09-09 11:03:51 INFO  MovieServiceImpl:82 - from getMovie method implementation::
+2024-09-09 11:03:51 INFO  MovieServiceImpl:95 - logger from the movieServiceImle class 
+2024-09-09 11:03:51 INFO  MovieServiceImpl:96 - from getMovie method implementation::
+2024-09-09 11:20:54 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-09 11:20:54 INFO  HikariDataSource:349 - HikariPool-1 - Shutdown initiated...
+2024-09-09 11:20:54 INFO  HikariDataSource:351 - HikariPool-1 - Shutdown completed.
+2024-09-09 11:21:06 INFO  Version:21 - HV000001: Hibernate Validator 8.0.1.Final
+2024-09-09 11:21:06 INFO  MovieApiApplication:50 - Starting MovieApiApplication using Java 22.0.1 with PID 2100 (C:\Users\Dharma\IdeaProjects\movieAPI\target\classes started by Dharma in C:\Users\Dharma\IdeaProjects\movieAPI)
+2024-09-09 11:21:06 INFO  MovieApiApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2024-09-09 11:21:06 INFO  DevToolsPropertyDefaultsPostProcessor:252 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-09 11:21:06 INFO  DevToolsPropertyDefaultsPostProcessor:252 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-09 11:21:08 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-09 11:21:08 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 62 ms. Found 1 JPA repository interface.
+2024-09-09 11:21:10 INFO  TomcatWebServer:111 - Tomcat initialized with port 8080 (http)
+2024-09-09 11:21:10 INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-09 11:21:10 INFO  StandardService:173 - Starting service [Tomcat]
+2024-09-09 11:21:10 INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-09 11:21:10 INFO  [/]:173 - Initializing Spring embedded WebApplicationContext
+2024-09-09 11:21:10 INFO  ServletWebServerApplicationContext:296 - Root WebApplicationContext: initialization completed in 3778 ms
+2024-09-09 11:21:11 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-09 11:21:11 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-09 11:21:11 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-09-09 11:21:11 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-09 11:21:11 INFO  HikariDataSource:109 - HikariPool-1 - Starting...
+2024-09-09 11:21:12 INFO  HikariPool:554 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@585cccdb
+2024-09-09 11:21:12 INFO  HikariDataSource:122 - HikariPool-1 - Start completed.
+2024-09-09 11:21:12 WARN  deprecation:153 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-09 11:21:13 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-09 11:21:13 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-09 11:21:14 WARN  JpaBaseConfiguration$JpaWebConfiguration:236 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-09 11:21:16 INFO  OptionalLiveReloadServer:59 - LiveReload server is running on port 35729
+2024-09-09 11:21:16 INFO  EndpointLinksResolver:60 - Exposing 1 endpoint beneath base path '/actuator'
+2024-09-09 11:21:16 INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-09 11:21:16 INFO  TomcatWebServer:243 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-09 11:21:16 INFO  MovieApiApplication:56 - Started MovieApiApplication in 10.612 seconds (process running for 12.734)
+2024-09-09 11:26:13 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-09 11:26:13 INFO  HikariDataSource:349 - HikariPool-1 - Shutdown initiated...
+2024-09-09 11:26:13 INFO  HikariDataSource:351 - HikariPool-1 - Shutdown completed.
+2024-09-09 11:26:18 INFO  Version:21 - HV000001: Hibernate Validator 8.0.1.Final
+2024-09-09 11:26:18 INFO  MovieApiApplication:50 - Starting MovieApiApplication using Java 22.0.1 with PID 5208 (C:\Users\Dharma\IdeaProjects\movieAPI\target\classes started by Dharma in C:\Users\Dharma\IdeaProjects\movieAPI)
+2024-09-09 11:26:18 INFO  MovieApiApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2024-09-09 11:26:18 INFO  DevToolsPropertyDefaultsPostProcessor:252 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-09 11:26:18 INFO  DevToolsPropertyDefaultsPostProcessor:252 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-09 11:26:20 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-09 11:26:20 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 87 ms. Found 1 JPA repository interface.
+2024-09-09 11:26:22 INFO  TomcatWebServer:111 - Tomcat initialized with port 8080 (http)
+2024-09-09 11:26:22 INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-09 11:26:22 INFO  StandardService:173 - Starting service [Tomcat]
+2024-09-09 11:26:22 INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-09 11:26:22 INFO  [/]:173 - Initializing Spring embedded WebApplicationContext
+2024-09-09 11:26:22 INFO  ServletWebServerApplicationContext:296 - Root WebApplicationContext: initialization completed in 3868 ms
+2024-09-09 11:26:23 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-09 11:26:23 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-09 11:26:23 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-09-09 11:26:24 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-09 11:26:24 INFO  HikariDataSource:109 - HikariPool-1 - Starting...
+2024-09-09 11:26:24 INFO  HikariPool:554 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@664169cf
+2024-09-09 11:26:24 INFO  HikariDataSource:122 - HikariPool-1 - Start completed.
+2024-09-09 11:26:24 WARN  deprecation:153 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-09 11:26:26 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-09 11:26:26 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-09 11:26:27 WARN  JpaBaseConfiguration$JpaWebConfiguration:236 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-09 11:26:28 INFO  OptionalLiveReloadServer:59 - LiveReload server is running on port 35729
+2024-09-09 11:26:28 INFO  EndpointLinksResolver:60 - Exposing 14 endpoints beneath base path '/actuator'
+2024-09-09 11:26:29 INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-09 11:26:29 INFO  TomcatWebServer:243 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-09 11:26:29 INFO  MovieApiApplication:56 - Started MovieApiApplication in 11.387 seconds (process running for 13.271)
+2024-09-09 11:26:53 INFO  [/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-09 11:26:53 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcherServlet'
+2024-09-09 11:26:53 INFO  DispatcherServlet:554 - Completed initialization in 2 ms
+2024-09-09 11:28:04 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-09 11:28:04 INFO  HikariDataSource:349 - HikariPool-1 - Shutdown initiated...
+2024-09-09 11:28:04 INFO  HikariDataSource:351 - HikariPool-1 - Shutdown completed.
+2024-09-09 12:24:13 INFO  Version:21 - HV000001: Hibernate Validator 8.0.1.Final
+2024-09-09 12:24:13 INFO  MovieApiApplication:50 - Starting MovieApiApplication using Java 22.0.1 with PID 1620 (C:\Users\Dharma\IdeaProjects\movieAPI\target\classes started by Dharma in C:\Users\Dharma\IdeaProjects\movieAPI)
+2024-09-09 12:24:13 INFO  MovieApiApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2024-09-09 12:24:13 INFO  DevToolsPropertyDefaultsPostProcessor:252 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-09 12:24:13 INFO  DevToolsPropertyDefaultsPostProcessor:252 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-09 12:24:16 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-09 12:24:16 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 94 ms. Found 1 JPA repository interface.
+2024-09-09 12:24:17 INFO  TomcatWebServer:111 - Tomcat initialized with port 8080 (http)
+2024-09-09 12:24:17 INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-09 12:24:17 INFO  StandardService:173 - Starting service [Tomcat]
+2024-09-09 12:24:17 INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-09 12:24:17 INFO  [/]:173 - Initializing Spring embedded WebApplicationContext
+2024-09-09 12:24:17 INFO  ServletWebServerApplicationContext:296 - Root WebApplicationContext: initialization completed in 4286 ms
+2024-09-09 12:24:18 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-09 12:24:19 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-09 12:24:19 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-09-09 12:24:20 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-09 12:24:20 INFO  HikariDataSource:109 - HikariPool-1 - Starting...
+2024-09-09 12:24:21 INFO  HikariPool:554 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2481f603
+2024-09-09 12:24:21 INFO  HikariDataSource:122 - HikariPool-1 - Start completed.
+2024-09-09 12:24:21 WARN  deprecation:153 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-09 12:24:22 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-09 12:24:23 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-09 12:24:24 WARN  JpaBaseConfiguration$JpaWebConfiguration:236 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-09 12:24:25 INFO  OptionalLiveReloadServer:59 - LiveReload server is running on port 35729
+2024-09-09 12:24:25 INFO  EndpointLinksResolver:60 - Exposing 14 endpoints beneath base path '/actuator'
+2024-09-09 12:24:25 INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-09 12:24:25 INFO  TomcatWebServer:243 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-09 12:24:25 INFO  MovieApiApplication:56 - Started MovieApiApplication in 13.408 seconds (process running for 15.446)
+2024-09-09 12:24:38 INFO  [/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-09 12:24:38 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcherServlet'
+2024-09-09 12:24:38 INFO  DispatcherServlet:554 - Completed initialization in 1 ms
+2024-09-09 12:41:40 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-09 12:41:40 INFO  HikariDataSource:349 - HikariPool-1 - Shutdown initiated...
+2024-09-09 12:41:41 INFO  HikariDataSource:351 - HikariPool-1 - Shutdown completed.
+2024-09-09 12:41:54 INFO  Version:21 - HV000001: Hibernate Validator 8.0.1.Final
+2024-09-09 12:41:54 INFO  MovieApiApplication:50 - Starting MovieApiApplication using Java 22.0.1 with PID 11908 (C:\Users\Dharma\IdeaProjects\movieAPI\target\classes started by Dharma in C:\Users\Dharma\IdeaProjects\movieAPI)
+2024-09-09 12:41:54 INFO  MovieApiApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2024-09-09 12:41:54 INFO  DevToolsPropertyDefaultsPostProcessor:252 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-09 12:41:54 INFO  DevToolsPropertyDefaultsPostProcessor:252 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-09 12:41:57 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-09 12:41:58 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 92 ms. Found 1 JPA repository interface.
+2024-09-09 12:41:59 INFO  TomcatWebServer:111 - Tomcat initialized with port 8080 (http)
+2024-09-09 12:41:59 INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-09 12:41:59 INFO  StandardService:173 - Starting service [Tomcat]
+2024-09-09 12:41:59 INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-09 12:41:59 INFO  [/]:173 - Initializing Spring embedded WebApplicationContext
+2024-09-09 12:41:59 INFO  ServletWebServerApplicationContext:296 - Root WebApplicationContext: initialization completed in 5249 ms
+2024-09-09 12:42:00 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-09 12:42:01 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-09 12:42:01 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-09-09 12:42:01 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-09 12:42:01 INFO  HikariDataSource:109 - HikariPool-1 - Starting...
+2024-09-09 12:42:02 INFO  HikariPool:554 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@34f634f2
+2024-09-09 12:42:02 INFO  HikariDataSource:122 - HikariPool-1 - Start completed.
+2024-09-09 12:42:02 WARN  deprecation:153 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-09 12:42:04 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-09 12:42:04 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-09 12:42:05 WARN  JpaBaseConfiguration$JpaWebConfiguration:236 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-09 12:42:06 INFO  OptionalLiveReloadServer:59 - LiveReload server is running on port 35729
+2024-09-09 12:42:06 INFO  EndpointLinksResolver:60 - Exposing 14 endpoints beneath base path '/actuator'
+2024-09-09 12:42:06 INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-09 12:42:06 INFO  TomcatWebServer:243 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-09 12:42:06 INFO  MovieApiApplication:56 - Started MovieApiApplication in 13.274 seconds (process running for 15.979)
+2024-09-09 12:43:01 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-09 12:43:01 INFO  HikariDataSource:349 - HikariPool-1 - Shutdown initiated...
+2024-09-09 12:43:01 INFO  HikariDataSource:351 - HikariPool-1 - Shutdown completed.
+2024-09-09 12:43:08 INFO  Version:21 - HV000001: Hibernate Validator 8.0.1.Final
+2024-09-09 12:43:08 INFO  MovieApiApplication:50 - Starting MovieApiApplication using Java 22.0.1 with PID 11604 (C:\Users\Dharma\IdeaProjects\movieAPI\target\classes started by Dharma in C:\Users\Dharma\IdeaProjects\movieAPI)
+2024-09-09 12:43:09 INFO  MovieApiApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2024-09-09 12:43:09 INFO  DevToolsPropertyDefaultsPostProcessor:252 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-09 12:43:09 INFO  DevToolsPropertyDefaultsPostProcessor:252 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-09 12:43:12 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-09 12:43:12 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 92 ms. Found 1 JPA repository interface.
+2024-09-09 12:43:13 INFO  TomcatWebServer:111 - Tomcat initialized with port 8080 (http)
+2024-09-09 12:43:13 INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-09 12:43:13 INFO  StandardService:173 - Starting service [Tomcat]
+2024-09-09 12:43:13 INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-09 12:43:14 INFO  [/]:173 - Initializing Spring embedded WebApplicationContext
+2024-09-09 12:43:14 INFO  ServletWebServerApplicationContext:296 - Root WebApplicationContext: initialization completed in 4942 ms
+2024-09-09 12:43:14 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-09 12:43:14 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-09 12:43:15 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-09-09 12:43:15 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-09 12:43:15 INFO  HikariDataSource:109 - HikariPool-1 - Starting...
+2024-09-09 12:43:16 INFO  HikariPool:554 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@43d33651
+2024-09-09 12:43:16 INFO  HikariDataSource:122 - HikariPool-1 - Start completed.
+2024-09-09 12:43:16 WARN  deprecation:153 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-09 12:43:18 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-09 12:43:18 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-09 12:43:19 WARN  JpaBaseConfiguration$JpaWebConfiguration:236 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-09 12:43:20 INFO  OptionalLiveReloadServer:59 - LiveReload server is running on port 35729
+2024-09-09 12:43:20 INFO  EndpointLinksResolver:60 - Exposing 14 endpoints beneath base path '/actuator'
+2024-09-09 12:43:20 INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-09 12:43:20 INFO  TomcatWebServer:243 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-09 12:43:21 INFO  MovieApiApplication:56 - Started MovieApiApplication in 12.942 seconds (process running for 14.837)
+2024-09-09 12:46:44 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-09 12:46:44 INFO  HikariDataSource:349 - HikariPool-1 - Shutdown initiated...
+2024-09-09 12:46:44 INFO  HikariDataSource:351 - HikariPool-1 - Shutdown completed.
+2024-09-09 12:46:52 INFO  Version:21 - HV000001: Hibernate Validator 8.0.1.Final
+2024-09-09 12:46:52 INFO  MovieApiApplication:50 - Starting MovieApiApplication using Java 22.0.1 with PID 1632 (C:\Users\Dharma\IdeaProjects\movieAPI\target\classes started by Dharma in C:\Users\Dharma\IdeaProjects\movieAPI)
+2024-09-09 12:46:52 INFO  MovieApiApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2024-09-09 12:46:52 INFO  DevToolsPropertyDefaultsPostProcessor:252 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-09 12:46:52 INFO  DevToolsPropertyDefaultsPostProcessor:252 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-09 12:46:54 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-09 12:46:54 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 103 ms. Found 1 JPA repository interface.
+2024-09-09 12:46:56 INFO  TomcatWebServer:111 - Tomcat initialized with port 8080 (http)
+2024-09-09 12:46:56 INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-09 12:46:56 INFO  StandardService:173 - Starting service [Tomcat]
+2024-09-09 12:46:56 INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-09 12:46:56 INFO  [/]:173 - Initializing Spring embedded WebApplicationContext
+2024-09-09 12:46:56 INFO  ServletWebServerApplicationContext:296 - Root WebApplicationContext: initialization completed in 3839 ms
+2024-09-09 12:46:57 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-09 12:46:57 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-09 12:46:57 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-09-09 12:46:57 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-09 12:46:57 INFO  HikariDataSource:109 - HikariPool-1 - Starting...
+2024-09-09 12:46:58 INFO  HikariPool:554 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@664169cf
+2024-09-09 12:46:58 INFO  HikariDataSource:122 - HikariPool-1 - Start completed.
+2024-09-09 12:46:58 WARN  deprecation:153 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-09 12:46:59 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-09 12:47:00 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-09 12:47:00 WARN  JpaBaseConfiguration$JpaWebConfiguration:236 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-09 12:47:02 INFO  OptionalLiveReloadServer:59 - LiveReload server is running on port 35729
+2024-09-09 12:47:02 INFO  EndpointLinksResolver:60 - Exposing 14 endpoints beneath base path '/actuator'
+2024-09-09 12:47:02 INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-09 12:47:02 INFO  TomcatWebServer:243 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-09 12:47:02 INFO  MovieApiApplication:56 - Started MovieApiApplication in 11.04 seconds (process running for 13.106)
+2024-09-09 12:55:39 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-09 12:55:39 INFO  HikariDataSource:349 - HikariPool-1 - Shutdown initiated...
+2024-09-09 12:55:39 INFO  HikariDataSource:351 - HikariPool-1 - Shutdown completed.
+2024-09-09 14:05:19 INFO  Version:21 - HV000001: Hibernate Validator 8.0.1.Final
+2024-09-09 14:05:19 INFO  MovieApiApplication:50 - Starting MovieApiApplication using Java 22.0.1 with PID 7752 (C:\Users\Dharma\IdeaProjects\movieAPI\target\classes started by Dharma in C:\Users\Dharma\IdeaProjects\movieAPI)
+2024-09-09 14:05:19 INFO  MovieApiApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2024-09-09 14:05:20 INFO  DevToolsPropertyDefaultsPostProcessor:252 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-09 14:05:20 INFO  DevToolsPropertyDefaultsPostProcessor:252 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-09 14:05:23 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-09 14:05:24 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 150 ms. Found 1 JPA repository interface.
+2024-09-09 14:05:26 INFO  TomcatWebServer:111 - Tomcat initialized with port 8080 (http)
+2024-09-09 14:05:26 INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-09 14:05:26 INFO  StandardService:173 - Starting service [Tomcat]
+2024-09-09 14:05:26 INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-09 14:05:26 INFO  [/]:173 - Initializing Spring embedded WebApplicationContext
+2024-09-09 14:05:26 INFO  ServletWebServerApplicationContext:296 - Root WebApplicationContext: initialization completed in 6576 ms
+2024-09-09 14:05:27 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-09 14:05:28 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-09 14:05:28 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-09-09 14:05:29 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-09 14:05:29 INFO  HikariDataSource:109 - HikariPool-1 - Starting...
+2024-09-09 14:05:30 INFO  HikariPool:554 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@18e88436
+2024-09-09 14:05:30 INFO  HikariDataSource:122 - HikariPool-1 - Start completed.
+2024-09-09 14:05:30 WARN  deprecation:153 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-09 14:05:32 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-09 14:05:32 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-09 14:05:33 WARN  JpaBaseConfiguration$JpaWebConfiguration:236 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-09 14:05:35 INFO  OptionalLiveReloadServer:59 - LiveReload server is running on port 35729
+2024-09-09 14:05:35 INFO  EndpointLinksResolver:60 - Exposing 14 endpoints beneath base path '/actuator'
+2024-09-09 14:05:36 INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-09 14:05:36 INFO  TomcatWebServer:243 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-09 14:05:36 INFO  MovieApiApplication:56 - Started MovieApiApplication in 17.546 seconds (process running for 21.498)
+2024-09-09 14:05:52 INFO  [/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-09 14:05:52 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcherServlet'
+2024-09-09 14:05:52 INFO  DispatcherServlet:554 - Completed initialization in 2 ms
+2024-09-09 14:05:56 INFO  AbstractOpenApiResource:371 - Init duration for springdoc-openapi is: 1238 ms
+2024-09-09 14:07:30 INFO  MovieServiceImpl:81 - logger from the movieServiceImle class 
+2024-09-09 14:07:30 INFO  MovieServiceImpl:82 - from getMovie method implementation::
+2024-09-09 14:07:30 INFO  MovieServiceImpl:95 - logger from the movieServiceImle class 
+2024-09-09 14:07:30 INFO  MovieServiceImpl:96 - from getMovie method implementation::
+2024-09-09 14:08:05 ERROR [dispatcherServlet]:175 - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.web.multipart.MultipartException: Current request is not a multipart request] with root cause
+org.springframework.web.multipart.MultipartException: Current request is not a multipart request
+	at org.springframework.web.servlet.mvc.method.annotation.RequestPartMethodArgumentResolver.resolveArgument(RequestPartMethodArgumentResolver.java:165) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.method.support.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:122) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.method.support.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:224) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:178) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.28.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.12.jar:6.1.12]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.28.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.springframework.web.filter.ServerHttpObservationFilter.doFilterInternal(ServerHttpObservationFilter.java:113) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.12.jar:6.1.12]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:384) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:904) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.28.jar:10.1.28]
+	at java.base/java.lang.Thread.run(Thread.java:1570) [?:?]
+2024-09-09 14:09:14 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-09 14:09:14 INFO  HikariDataSource:349 - HikariPool-1 - Shutdown initiated...
+2024-09-09 14:09:14 INFO  HikariDataSource:351 - HikariPool-1 - Shutdown completed.
+2024-09-09 14:09:22 INFO  Version:21 - HV000001: Hibernate Validator 8.0.1.Final
+2024-09-09 14:09:22 INFO  MovieApiApplication:50 - Starting MovieApiApplication using Java 22.0.1 with PID 12628 (C:\Users\Dharma\IdeaProjects\movieAPI\target\classes started by Dharma in C:\Users\Dharma\IdeaProjects\movieAPI)
+2024-09-09 14:09:22 INFO  MovieApiApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2024-09-09 14:09:22 INFO  DevToolsPropertyDefaultsPostProcessor:252 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-09 14:09:22 INFO  DevToolsPropertyDefaultsPostProcessor:252 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-09 14:09:25 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-09 14:09:25 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 80 ms. Found 1 JPA repository interface.
+2024-09-09 14:09:26 INFO  TomcatWebServer:111 - Tomcat initialized with port 8080 (http)
+2024-09-09 14:09:26 INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-09 14:09:26 INFO  StandardService:173 - Starting service [Tomcat]
+2024-09-09 14:09:26 INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-09 14:09:27 INFO  [/]:173 - Initializing Spring embedded WebApplicationContext
+2024-09-09 14:09:27 INFO  ServletWebServerApplicationContext:296 - Root WebApplicationContext: initialization completed in 4188 ms
+2024-09-09 14:09:27 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-09 14:09:28 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-09 14:09:28 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-09-09 14:09:29 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-09 14:09:29 INFO  HikariDataSource:109 - HikariPool-1 - Starting...
+2024-09-09 14:09:30 INFO  HikariPool:554 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2cddb61f
+2024-09-09 14:09:30 INFO  HikariDataSource:122 - HikariPool-1 - Start completed.
+2024-09-09 14:09:30 WARN  deprecation:153 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-09 14:09:32 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-09 14:09:32 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-09 14:09:33 WARN  JpaBaseConfiguration$JpaWebConfiguration:236 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-09 14:09:35 INFO  OptionalLiveReloadServer:59 - LiveReload server is running on port 35729
+2024-09-09 14:09:35 INFO  EndpointLinksResolver:60 - Exposing 14 endpoints beneath base path '/actuator'
+2024-09-09 14:09:35 INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-09 14:09:35 INFO  TomcatWebServer:243 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-09 14:09:35 INFO  MovieApiApplication:56 - Started MovieApiApplication in 13.929 seconds (process running for 16.518)
+2024-09-09 14:23:16 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-09 14:23:16 INFO  HikariDataSource:349 - HikariPool-1 - Shutdown initiated...
+2024-09-09 14:23:16 INFO  HikariDataSource:351 - HikariPool-1 - Shutdown completed.
+2024-09-09 14:23:30 INFO  Version:21 - HV000001: Hibernate Validator 8.0.1.Final
+2024-09-09 14:23:31 INFO  MovieApiApplication:50 - Starting MovieApiApplication using Java 22.0.1 with PID 12496 (C:\Users\Dharma\IdeaProjects\movieAPI\target\classes started by Dharma in C:\Users\Dharma\IdeaProjects\movieAPI)
+2024-09-09 14:23:31 INFO  MovieApiApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2024-09-09 14:23:31 INFO  DevToolsPropertyDefaultsPostProcessor:252 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-09 14:23:31 INFO  DevToolsPropertyDefaultsPostProcessor:252 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-09 14:23:34 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-09 14:23:34 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 94 ms. Found 1 JPA repository interface.
+2024-09-09 14:23:37 INFO  TomcatWebServer:111 - Tomcat initialized with port 8080 (http)
+2024-09-09 14:23:37 INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-09 14:23:37 INFO  StandardService:173 - Starting service [Tomcat]
+2024-09-09 14:23:37 INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-09 14:23:37 INFO  [/]:173 - Initializing Spring embedded WebApplicationContext
+2024-09-09 14:23:37 INFO  ServletWebServerApplicationContext:296 - Root WebApplicationContext: initialization completed in 6505 ms
+2024-09-09 14:23:39 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-09 14:23:40 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-09 14:23:40 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-09-09 14:23:42 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-09 14:23:42 INFO  HikariDataSource:109 - HikariPool-1 - Starting...
+2024-09-09 14:23:43 INFO  HikariPool:554 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@202a5d9c
+2024-09-09 14:23:43 INFO  HikariDataSource:122 - HikariPool-1 - Start completed.
+2024-09-09 14:23:43 WARN  deprecation:153 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-09 14:23:46 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-09 14:23:46 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-09 14:23:47 WARN  JpaBaseConfiguration$JpaWebConfiguration:236 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-09 14:23:49 INFO  OptionalLiveReloadServer:59 - LiveReload server is running on port 35729
+2024-09-09 14:23:49 INFO  EndpointLinksResolver:60 - Exposing 14 endpoints beneath base path '/actuator'
+2024-09-09 14:23:50 INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-09 14:23:50 INFO  TomcatWebServer:243 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-09 14:23:51 INFO  MovieApiApplication:56 - Started MovieApiApplication in 20.957 seconds (process running for 23.469)
+2024-09-09 14:24:05 INFO  [/]:173 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-09-09 14:24:05 INFO  DispatcherServlet:532 - Initializing Servlet 'dispatcherServlet'
+2024-09-09 14:24:05 INFO  DispatcherServlet:554 - Completed initialization in 6 ms
+2024-09-09 14:24:07 INFO  AbstractOpenApiResource:371 - Init duration for springdoc-openapi is: 592 ms
+2024-09-09 14:26:02 INFO  MovieServiceImpl:81 - logger from the movieServiceImle class 
+2024-09-09 14:26:02 INFO  MovieServiceImpl:82 - from getMovie method implementation::
+2024-09-09 14:26:03 INFO  MovieServiceImpl:95 - logger from the movieServiceImle class 
+2024-09-09 14:26:03 INFO  MovieServiceImpl:96 - from getMovie method implementation::
+2024-09-09 14:26:58 WARN  DefaultHandlerExceptionResolver:247 - Resolved [org.springframework.web.bind.MissingPathVariableException: Required URI template variable 'fileName' for method parameter type String is not present]
+2024-09-09 14:43:54 INFO  LocalContainerEntityManagerFactoryBean:650 - Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-09-09 14:43:54 INFO  HikariDataSource:349 - HikariPool-1 - Shutdown initiated...
+2024-09-09 14:43:54 INFO  HikariDataSource:351 - HikariPool-1 - Shutdown completed.
+2024-09-09 14:43:59 INFO  Version:21 - HV000001: Hibernate Validator 8.0.1.Final
+2024-09-09 14:44:00 INFO  MovieApiApplication:50 - Starting MovieApiApplication using Java 22.0.1 with PID 7568 (C:\Users\Dharma\IdeaProjects\movieAPI\target\classes started by Dharma in C:\Users\Dharma\IdeaProjects\movieAPI)
+2024-09-09 14:44:00 INFO  MovieApiApplication:654 - No active profile set, falling back to 1 default profile: "default"
+2024-09-09 14:44:00 INFO  DevToolsPropertyDefaultsPostProcessor:252 - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-09-09 14:44:00 INFO  DevToolsPropertyDefaultsPostProcessor:252 - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-09-09 14:44:02 INFO  RepositoryConfigurationDelegate:143 - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-09-09 14:44:02 INFO  RepositoryConfigurationDelegate:211 - Finished Spring Data repository scanning in 77 ms. Found 1 JPA repository interface.
+2024-09-09 14:44:04 INFO  TomcatWebServer:111 - Tomcat initialized with port 8080 (http)
+2024-09-09 14:44:04 INFO  Http11NioProtocol:173 - Initializing ProtocolHandler ["http-nio-8080"]
+2024-09-09 14:44:04 INFO  StandardService:173 - Starting service [Tomcat]
+2024-09-09 14:44:04 INFO  StandardEngine:173 - Starting Servlet engine: [Apache Tomcat/10.1.28]
+2024-09-09 14:44:04 INFO  [/]:173 - Initializing Spring embedded WebApplicationContext
+2024-09-09 14:44:04 INFO  ServletWebServerApplicationContext:296 - Root WebApplicationContext: initialization completed in 3932 ms
+2024-09-09 14:44:04 INFO  LogHelper:31 - HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-09-09 14:44:04 INFO  Version:44 - HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-09-09 14:44:04 INFO  RegionFactoryInitiator:50 - HHH000026: Second-level cache disabled
+2024-09-09 14:44:05 INFO  SpringPersistenceUnitInfo:87 - No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-09-09 14:44:05 INFO  HikariDataSource:109 - HikariPool-1 - Starting...
+2024-09-09 14:44:06 INFO  HikariPool:554 - HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@28dd1129
+2024-09-09 14:44:06 INFO  HikariDataSource:122 - HikariPool-1 - Start completed.
+2024-09-09 14:44:06 WARN  deprecation:153 - HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-09-09 14:44:07 INFO  JtaPlatformInitiator:59 - HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-09-09 14:44:07 INFO  LocalContainerEntityManagerFactoryBean:437 - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-09-09 14:44:08 WARN  JpaBaseConfiguration$JpaWebConfiguration:236 - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-09-09 14:44:10 INFO  OptionalLiveReloadServer:59 - LiveReload server is running on port 35729
+2024-09-09 14:44:10 INFO  EndpointLinksResolver:60 - Exposing 14 endpoints beneath base path '/actuator'
+2024-09-09 14:44:10 INFO  Http11NioProtocol:173 - Starting ProtocolHandler ["http-nio-8080"]
+2024-09-09 14:44:10 INFO  TomcatWebServer:243 - Tomcat started on port 8080 (http) with context path '/'
+2024-09-09 14:44:10 INFO  MovieApiApplication:56 - Started MovieApiApplication in 11.238 seconds (process running for 13.784)
