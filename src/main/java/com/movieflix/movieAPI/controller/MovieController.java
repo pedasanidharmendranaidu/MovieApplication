@@ -49,18 +49,23 @@ public class MovieController {
     public ResponseEntity<MovieDto> getMovieByMovieHanler(@PathVariable(name = "movieid") Integer movieId) {
 
         logger.info("info loggeer from movie controller class");
-        logger.info(" getmoviebymoviehandler mthod from movie cintroller::");
+        logger.info(" getmoviebymoviehandler mthod from movie controller::");
 
 
         return new ResponseEntity<>(movieService.getMovie(movieId), HttpStatus.OK);
     }
 
-    @GetMapping("getAllMovies")
-    public ResponseEntity<List<MovieDto>> getAllMoviesHandler() {
+    @GetMapping("getAllMovies/{get}")
+    public ResponseEntity<List<MovieDto>> getAllMoviesHandler(@RequestParam(name = "get", required = false) Integer id) {
         logger.info("info loggeer from movie controller class");
         logger.info(" gethandlerMovieHandler mthod from movie cintroller::");
+//        if (id != null) {
+//    return     new ResponseEntity<>(movieService.getMovie(id), HttpStatus.OK);
+//        }
 
         return new ResponseEntity<>(movieService.getAllMovies(), HttpStatus.OK);
+
+
     }
 
     @PutMapping("update/{movieId}")
@@ -89,6 +94,11 @@ public class MovieController {
 
 
         return ResponseEntity.ok(movieService.deleteMovie(movieId));
+    }
+
+    @GetMapping("tittle/{tittle}")
+    ResponseEntity<List<MovieDto>> fetchMovieTittleHandler(@PathVariable(name = "tittle") String tittle) {
+        return new ResponseEntity<>(movieService.fetchMovieTittle(tittle), HttpStatus.OK);
     }
 
 

@@ -21,6 +21,27 @@ import java.util.List;
 
 @Service
 public class MovieServiceImpl implements MovieService {
+    @Override
+    public List<MovieDto> fetchMovieTittle(String tittle) {
+       List<Movie> movie1=  movieRepository.findByTittle(tittle);
+        List<MovieDto> responce=new ArrayList<>();
+        for (Movie movie:movie1){
+            String posterUrl = baseUrl + "/file" + movie.getPoster();
+            MovieDto res = new MovieDto(
+                    movie.getMovieId(),
+                    movie.getTittle(),
+                    movie.getDirector(),
+                    movie.getStudio(),
+                    movie.getMovieCast(),
+                    movie.getReleaseYear(),
+                    movie.getPoster(),
+                    posterUrl
+            );
+            responce.add(res);
+        }
+        return responce ;
+    }
+
     private static final Logger logger = LoggerFactory.getLogger(MovieServiceImpl.class);
 
 
